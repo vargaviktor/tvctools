@@ -1,0 +1,6 @@
+compiled with FreePascal, Win32 mode, so only run under Win32
+Crccas
+Wav2cas
+
+There was some linkig problem with cas2wav, but if you want ot convert back files, maybe it is not problem, if you don't have long filenames. :)
+
