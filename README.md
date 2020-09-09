@@ -4,7 +4,7 @@ Videoton TV Computer (TVC) tape image converter (to and from wav, and a checksum
 To learn about the Videoton TV Computer (TVC) check the http://tvc.homeserver.hu/ page.
 
 Compile:
-- with FreePascal
+- with FreePascal https://www.freepascal.org/
 
 WAV2CAS
 -------
