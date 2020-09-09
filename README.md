@@ -1,6 +1,11 @@
 # tvctools
 Videoton TV Computer (TVC) tape image converter (to and from wav, and a checksummer)
 
+To learn about the Videoton TV Computer (TVC) check the http://tvc.homeserver.hu/ page.
+
+Compile:
+- with FreePascal
+
 WAV2CAS
 -------
 Converts a 8 bit mono 44.1 KHz .WAV to .CAS file.
@@ -37,3 +42,8 @@ This program cheks files, for internal CRC, block structure, and generates RAW C
 
 RAW CRC is a check sum of all DATA bytes. Headings, and synchronization are not included in this checksum. If there is two version of a program and they have different size and they are not 
 binary equal, these differences can come from the different block sizes. If the RAW CRC is equal, the programs are equal.
+
+Thanks
+------
+based on code of Laszlo Jozsef (search github for primotools)
+help from Kiss Karoly with some problems
